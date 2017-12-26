@@ -30,6 +30,16 @@
         .card {
             margin-bottom: 20px;
         }
+        #pic {
+            box-shadow: 10px 10px 5px #8a8a8a;
+            margin: -120px 0px 0px 0px;
+            position:absolute;
+            z-index:100;
+            width:200px;
+        }
+        @media screen and (max-width: 768px) {
+            #pic { display: none; }
+        }
     </style>
 </head>
 
@@ -81,6 +91,10 @@
                 </p>
             </div>
         </div>
+
+        <div class="col-md-2 offset-md-8">
+            <img src="img/jose.jpg" class="img-thumbnail" id="pic" class="d-none d-md-block">
+        </div> 
         
         <div class="container">
             <div class="row">
@@ -93,7 +107,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>Summary</h2>
-                    <p>I'm a technology professional with extensive experience designing, developing, installing and supporting solutions and services for small, medium and enterprise size environments. I have a strong background on infrastructure services (on-prem and Cloud), software development, solutions and software architecture, information security, compliance, management and customer relationship. I'm familiar with DevOps practices and Agile/Scrum methodolgies. I'm also bilingual (English and Spanish), and I'm able to adapt quickly to demanding and high-pressure situations.</p>
+                    <p>I'm a technology professional with extensive experience designing, developing, installing and supporting solutions and services for small, medium and enterprise size environments. I have a strong background on infrastructure services (on-prem and Cloud), software development, solutions and software architecture, information security, compliance, management and customer relationship. I'm familiar with DevOps practices and Agile/Scrum methodologies. I am also bilingual (English and Spanish), and I am able to adapt quickly to demanding and high-pressure situations.</p>
                     <p>If you want to talk about technology, offer me a job or just say "Hi", send me <a href="#contact">a message</a>.</p>
                 </div>
             </div>
