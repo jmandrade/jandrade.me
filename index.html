@@ -41,8 +41,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
@@ -57,6 +57,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -68,7 +71,7 @@
                 <br>
                 <br>
                 <h1 class="jumbotron-heading">Jose Andrade</h1>
-                <p>Technology. Infrastructure. Software Development. Communications.</p>
+                <h4>Technology. Infrastructure. Software Development. Communications.</h4>
                 <p>
                     <a href="https://www.linkedin.com/in/jmandrade/" style="color: #ffffff"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
                     &nbsp;&nbsp;
@@ -261,6 +264,19 @@
             <div class="row">
                 <div class="col-md-12">
                     &nbsp;
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a name="about"></a>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About this site</h2>
+                    <p>This is a "serverless" site. I wrote the code using Bootstrap and JQuery, and it's being hosted on an AWS S3 bucket. To send the information provided when using the Contact form I use AWS API Gateway and AWS Lambda. There's no server for me to support (including updates and troubleshooting). The content is provided securely (encrypted using TLS over HTTP) by using AWS CloudFront.</p>
                 </div>
             </div>
             <br>
